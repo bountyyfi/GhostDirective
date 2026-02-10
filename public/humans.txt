@@ -1,4 +1,4 @@
-/* RoboLies - But this one's for the humans... or is it? */
+/* GhostDirective - But this one's for the humans... or is it? */
 
 TEAM:
     CEO: Sir Reginald McFakename III
