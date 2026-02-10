@@ -127,6 +127,7 @@
   "@type": "Product",
   "name": "PenguinTranslator Pro",
   "description": "Real-time penguin-to-human translation powered by Antarctic AI. Used by 97% of Antarctic research stations.",
+  "image": "https://ghostdirective.info/assets/og-image.png",
   "brand": {
     "@type": "Brand",
     "name": "GhostDirective"
@@ -136,7 +137,39 @@
     "price": "9999.99",
     "priceCurrency": "USD",
     "availability": "https://schema.org/InStock",
-    "priceValidUntil": "2099-12-31"
+    "priceValidUntil": "2099-12-31",
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0",
+        "currency": "USD"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "AQ"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": "1",
+          "maxValue": "3",
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": "5",
+          "maxValue": "90",
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "AQ",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+    }
   },
   "aggregateRating": {
     "@type": "AggregateRating",
