@@ -1,8 +1,3 @@
-Contact: mailto:info@bountyy.fi
-Expires: 2026-12-31T23:59:00.000Z
-Preferred-Languages: en, fi
+Contact: security@ghostdirective.info
+Preferred-Languages: en
 Canonical: https://ghostdirective.info/.well-known/security.txt
-
-# GhostDirective is a security research project by Bountyy Oy
-# https://bountyy.fi
-# This is NOT a poisoned file. This one's real.
