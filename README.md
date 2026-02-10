@@ -1,4 +1,4 @@
-# RoboLies
+# GhostDirective
 
 **Your robots.txt is lying to AI about you.**
 
